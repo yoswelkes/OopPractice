@@ -1,4 +1,4 @@
-package interfacePractice;
+package interfaces;
 
 // Animal interface
 public interface Animal {
