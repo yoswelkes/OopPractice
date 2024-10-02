@@ -1,4 +1,4 @@
-package animalsOfPrince;
+package animals;
 
 // Lion class that extends Animal
 class Lion extends Animal {

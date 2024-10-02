@@ -1,4 +1,4 @@
-package interfacePractice;
+package interfaces;
 
 // Lion class implementing the Animal interface
 class Lion implements Animal {

@@ -1,4 +1,4 @@
-package interfacePractice;
+package interfaces;
 
 // Main class to demonstrate the functionality
 public class Main {

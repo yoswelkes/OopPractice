@@ -1,4 +1,4 @@
-package interfacePractice;
+package interfaces;
 
 // Dog class implementing the Animal interface
 class Dog implements Animal {
