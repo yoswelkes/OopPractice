@@ -11,9 +11,10 @@ public class Italian implements Class {
     }
 
     @Override
-    public void takeAttendance(String studentName) {
-        attendanceList.add(studentName);
-        System.out.println(studentName + " is present in Italian class.");
+    public void takeAttendance(Person person) {
+        String attendanceString = person.getAttendanceString();
+        attendanceList.add(attendanceString);
+        System.out.println(attendanceString + " is present in Italian class.");
     }
 
     @Override
@@ -21,4 +22,3 @@ public class Italian implements Class {
         return attendanceList;
     }
 }
-
