@@ -11,9 +11,10 @@ public class Math implements Class {
     }
 
     @Override
-    public void takeAttendance(String studentName) {
-        attendanceList.add(studentName);
-        System.out.println(studentName + " is present in Math class.");
+    public void takeAttendance(Person person) {
+        String attendanceString = person.getAttendanceString();
+        attendanceList.add(attendanceString);
+        System.out.println(attendanceString + " is present in Math class.");
     }
 
     @Override
@@ -21,4 +22,3 @@ public class Math implements Class {
         return attendanceList;
     }
 }
-
