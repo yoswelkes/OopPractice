@@ -1,6 +1,6 @@
 package calculators.tests;
 
-import CalculatorClass;
+import calculators.CalculatorClass;
 
 public class CalculatorTester {
 
