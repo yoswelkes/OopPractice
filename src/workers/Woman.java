@@ -9,6 +9,6 @@ public class Woman extends Person {
 
     @Override
     public void work() {
-        System.out.println(getName() + " is a woman and working.");
+        System.out.println(getName() + " is a woman and can work.");
     }
 }
