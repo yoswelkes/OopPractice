@@ -15,4 +15,9 @@ public class TwoDoorToyota extends TwoDoorCar {
     public void repair() {
         System.out.println("Repairing Two-Door Toyota with specialized parts.");
     }
+
+    @Override
+    public String toString() {
+        return "TwoDoorToyota: Model = " + model + ", Year = " + year + ", Mileage = " + mileage + "km, Power = " + power + "hp";
+    }
 }

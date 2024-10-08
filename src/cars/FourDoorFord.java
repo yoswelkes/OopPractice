@@ -15,4 +15,9 @@ public class FourDoorFord extends FourDoorCar {
     public void repair() {
         System.out.println("Repairing Ford with original Ford parts.");
     }
+
+    @Override
+    public String toString() {
+        return "FourDoorFord: Model = " + model + ", Year = " + year + ", Mileage = " + mileage + "km, Power = " + power + "hp";
+    }
 }

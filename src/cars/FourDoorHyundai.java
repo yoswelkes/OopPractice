@@ -15,4 +15,10 @@ public class FourDoorHyundai extends FourDoorCar {
     public void repair() {
         System.out.println("Repairing Hyundai with original Hyundai parts.");
     }
+
+    @Override
+    public String toString() {
+        return "FourDoorHyundai: Model = " + model + ", Year = " + year + ", Mileage = " + mileage + "km, Power = " + power + "hp";
+    }
+
 }
