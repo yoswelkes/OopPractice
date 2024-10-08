@@ -1,6 +1,6 @@
 package interfaces;
 
-// Main class to demonstrate the functionality
+// CarTester class to demonstrate the functionality
 public class Main {
     public static void main(String[] args) {
         // Create instances of Dog, Cat, and Lion

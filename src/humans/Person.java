@@ -42,7 +42,7 @@ public class Person {
         return this.name;
     }
 
-    // Main method to test the functionality
+    // CarTester method to test the functionality
     public static void main(String[] args) {
         Person person1 = new Person("Simba", 30, "simba123", "password123");
         Person person2 = new Person("Cleopatra", 25, "cleopatra321", "password321");

@@ -48,7 +48,7 @@ public class Customer extends Person{
         return retVal;
     }
 
-    // Main method to test the functionality
+    // CarTester method to test the functionality
     public static void main(String[] args) {
         Customer customer1 = new Customer("Simba", 30, "simba123", "password123", 500.0);
         Customer customer2 = new Customer("Cleopatra", 25, "cleopatra321", "password321", 300.0);
