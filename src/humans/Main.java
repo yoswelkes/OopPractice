@@ -1,7 +1,7 @@
 package humans;
 
 public class Main {
-    // Main method to test the functionality
+    // CarTester method to test the functionality
     public static void main(String[] args) {
         // Create manager objects
         Manager manager1 = new Manager("Simba", 45, "simbaManager", "securePass123");

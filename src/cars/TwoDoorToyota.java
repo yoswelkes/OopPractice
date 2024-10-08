@@ -2,8 +2,8 @@ package cars;
 
 public class TwoDoorToyota extends TwoDoorCar {
 
-    public TwoDoorToyota(String model, int year) {
-        super(model, year);
+    public TwoDoorToyota(String model, int year, int mileage, int power) {
+        super(model, year, mileage, power);
     }
 
     @Override

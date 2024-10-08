@@ -2,8 +2,8 @@ package cars;
 
 public class FourDoorFord extends FourDoorCar {
 
-    public FourDoorFord(String model, int year) {
-        super(model, year);
+    public FourDoorFord(String model, int year, int mileage, int power) {
+        super(model, year, mileage, power);
     }
 
     @Override
