@@ -15,4 +15,9 @@ public class FourDoorToyota extends FourDoorCar {
     public void repair() {
         System.out.println("Repairing Toyota with genuine Toyota parts.");
     }
+
+    @Override
+    public String toString() {
+        return "FourDoorToyota: Model = " + model + ", Year = " + year + ", Mileage = " + mileage + "km, Power = " + power + "hp";
+    }
 }

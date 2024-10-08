@@ -15,4 +15,9 @@ public class TwoDoorFord extends TwoDoorCar {
     public void repair() {
         System.out.println("Repairing Two-Door Ford with Mustang parts.");
     }
+
+    @Override
+    public String toString() {
+        return "TwoDoorFord: Model = " + model + ", Year = " + year + ", Mileage = " + mileage + "km, Power = " + power + "hp";
+    }
 }

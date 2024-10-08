@@ -15,4 +15,9 @@ public class TwoDoorHyundai extends TwoDoorCar {
     public void repair() {
         System.out.println("Repairing Two-Door Hyundai with original Hyundai parts.");
     }
+
+    @Override
+    public String toString() {
+        return "TwoDoorHyundai: Model = " + model + ", Year = " + year + ", Mileage = " + mileage + "km, Power = " + power + "hp";
+    }
 }

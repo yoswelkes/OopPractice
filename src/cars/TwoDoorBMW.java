@@ -15,4 +15,9 @@ public class TwoDoorBMW extends TwoDoorCar {
     public void repair() {
         System.out.println("Repairing Two-Door BMW with high-performance parts.");
     }
+
+    @Override
+    public String toString() {
+        return "TwoDoorBMW: Model = " + model + ", Year = " + year + ", Mileage = " + mileage + "km, Power = " + power + "hp";
+    }
 }

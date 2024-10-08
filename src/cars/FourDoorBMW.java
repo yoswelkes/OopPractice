@@ -15,4 +15,9 @@ public class FourDoorBMW extends FourDoorCar {
     public void repair() {
         System.out.println("Repairing BMW with certified German engineering parts.");
     }
+
+    @Override
+    public String toString() {
+        return "FourDoorBMW: Model = " + model + ", Year = " + year + ", Mileage = " + mileage + "km, Power = " + power + "hp";
+    }
 }
