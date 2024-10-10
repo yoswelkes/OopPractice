@@ -1,4 +1,6 @@
-package cars;
+package cars.dealers;
+
+import cars.*;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -152,5 +154,16 @@ public class Dealer {
         }
 
         System.out.println("Exiting Dealer Menu.");
+    }
+
+    // Method
+    public String getDealerInfo(){
+        String retVal = "";
+        if (this.dealerName != null)
+            retVal = "Name:" + this.dealerName;
+        if (this.dealerMoney != 0.0)
+            retVal += ", Balance:" + this.dealerMoney;
+
+        return retVal;
     }
 }
